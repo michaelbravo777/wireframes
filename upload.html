@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Michael Bravo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <nav role="navigation" class='center'>
+        <div class='nav-element'>
+            <a href="login.html">Login</a><br>
+        </div>
+        <div class='nav-element'>
+            <a href="upload.html">Upload</a><br>
+        </div>
+        <div class='nav-element-videos'>
+            Video1<br>
+            Video2<br>
+            Video3<br>
+            Video4<br>
+        </div>
+    </nav>
+    <main role="main">
+        <section id='video'>
+            <h1 class='center'>Upload Video</h1>
+            <div class='section-div'>
+              <form method="post" enctype="multipart/form-data">
+                File name:<br>
+                <p><input type="text" name="file-name"></p>
+                File Description:<br>
+                <p><textarea rows="4" cols="50" name="file-desc"></textarea></p>
+                Select video to upload:
+                <input type="file" name="upload-file" id="upload-file">
+                <input type="submit" value="Upload Video" name="submit">
+              </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

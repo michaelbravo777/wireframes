@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Michael Bravo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <nav role="navigation" class='center'>
+        <div class='nav-element'>
+            <a href="login.html">Login</a><br>
+        </div>
+        <div class='nav-element'>
+            <a href="upload.html">Upload</a><br>
+        </div>
+        <div class='nav-element-videos'>
+            Video1<br>
+            Video2<br>
+            Video3<br>
+            Video4<br>
+        </div>
+    </nav>
+    <main role="main">
+        <section id='video'>
+            <h1 class='center'>Default Video</h1>
+            <div class='section-div'>
+                <video width="320" height="240" controls>
+                    <source src="SampleVideo_360x240_30mb.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video>
+            </div>
+        </section>
+
+        <section id='comments'>
+            <div class='section-div'>
+                Comment 1
+            </div>
+            <div class='section-div'>
+                Comment 2
+            </div>
+            <div class='section-div'>
+                <form method="post">
+                    Leave Comment at current timestamp 00:00:<br>
+                    <p><textarea rows="4" cols="50" name="user-comment"></textarea></p>
+                    <input type="submit" value="Leave Comment" name="submit">
+                  </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
